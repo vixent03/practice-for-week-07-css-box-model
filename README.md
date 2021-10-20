@@ -1,4 +1,4 @@
-# Practice: CSS Selectors
+# Practice: Box Model
 
 Now, it's time to practice your understanding of the **CSS Box Model**.
 
@@ -36,7 +36,7 @@ will want to adjust the margin on the bottom to push it up by a few pixels.
 Now, it's time to explore resizing of `block` components, like `<div>`, and
 setting the blank space inside and outside of their borders.
 
-First, add a border to the `.main` class. Please give it these settings:
+First, add a border to the `.box` class. Please give it these settings:
 
 * `dotted` style
 * `black` color
