@@ -1,34 +1,47 @@
-html, body {
+html,
+body {
     /* DO NOT EDIT */
     font-family: sans-serif;
 }
+
 
 /* Phase 1 */
 
 #logo {
     /* DO NOT EDIT */
     vertical-align: bottom;
-
     /* Your code here */
+    height: 40px;
+    width: 40px;
 }
-
 
 h1 {
     /* Your code here */
+    display: inline;
 }
+
 
 /* Phase 2 */
 
 .box {
     /* DO NOT EDIT */
     vertical-align: top;
-
     /* Your code here */
+    border: black 4px solid;
+    border-style: dotted;
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
 }
 
 .alternate {
     /* Your code here */
+    box-sizing: border-box;
 }
+
 
 /* Phase 3 */
 
@@ -39,17 +52,22 @@ h1 {
     right: 0;
     bottom: 0;
 }
+
 .quote {
     /* DO NOT EDIT */
     background-color: lightgray;
     font-size: larger;
-
     /* Your code here */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 40px;
 }
 
 .attribution {
     /* DO NOT EDIT */
     font-style: italic;
-
     /* Your code here */
+    display: block;
 }
